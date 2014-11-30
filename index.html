@@ -12,22 +12,35 @@
                                 padding:8px;
                                 background-color:white;
                         }
+
                         header,footer {
                                 color:white;
                                 background-color:#444;
                                 margin-bottom:5px;
                         }
+
                         section {
                                 background-color:#ddd;
                         }
+
                         nav ul  {
                                 margin:0;
                                 padding:0;
                         }
+
                         nav ul li {
                                 display:inline;
                                 margin:5px;
                         }
+
+                        table tr, th, td {
+                                padding: 10px;
+                        }
+
+                        .headercol {
+                                text-align: right;
+                        }
+
                 </style>
         </head>
         <body>
@@ -38,36 +51,35 @@
                 <section>
                         <table>
                                 <tr><th>Name</th><th>Description</th></tr>
-                                <tr><td>assert.h      </td><td>Contains the assert macro</td></tr>
-                                <tr><td>complex.h     </td><td>Handle complex numbers</td></tr>
-                                <tr><td>ctype.h       </td><td>Check character class</td></tr>
-                                <tr><td>errno.h       </td><td>Standard error codes</td></tr>
-                                <tr><td>fenv.h        </td><td>Functions for configuring floating-point environment</td></tr>
-                                <tr><td>float.h       </td><td>Macro constants for floating-point</td></tr>
-                                <tr><td>inttypes.h    </td><td>Defines exact width integer types.</td></tr>
-                                <tr><td>iso646.h      </td><td>For programming in ISO 646 variant character sets.</td></tr>
-                                <tr><td>limits.h      </td><td>Defines macro constants of implementation-specific integer types.</td></tr>
-                                <tr><td>locale.h      </td><td>Defines localization functions.</td></tr>
-                                <tr><td>math.h        </td><td>Defines common mathematical functions.</td></tr>
-                                <tr><td>setjmp.h      </td><td>Declares the macros setjmp and longjmp, which are used for non-local exits.</td></tr>
-                                <tr><td>signal.h      </td><td>Defines signal handling functions.</td></tr>
-                                <tr><td>stdalign.h    </td><td>For querying and specifying the alignment of objects.</td></tr>
-                                <tr><td>stdarg.h      </td><td>For accessing a varying number of arguments passed to functions.</td></tr>
-                                <tr><td>stdatomic.h   </td><td>For atomic operations on data shared between threads.</td></tr>
-                                <tr><td>stdbool.h     </td><td>Defines a boolean data type.</td></tr>
-                                <tr><td>stddef.h      </td><td>Defines useful types and macros.</td></tr>
-                                <tr><td>stdint.h      </td><td>Defines exact width integer types.</td></tr>
-                                <tr><td>stdio.h       </td><td>Defines core input and output functions</td></tr>
-                                <tr><td>stdlib.h      </td><td>Defines numeric conversion functions, pseudo-random numbers generation functions, memory allocation, process control functions</td></tr>
-                                <tr><td>stdnoreturn.h </td><td>For specifying non-returning functions.</td></tr>
-                                <tr><td>string.h      </td><td>Defines string handling functions.</td></tr>
-                                <tr><td>tgmath.h      </td><td>Defines type-generic mathematical functions.</td></tr>
-                                <tr><td>threads.h     </td><td>Defines functions for managing multiple Threads as well as mutexes and condition variables.</td></tr>
-                                <tr><td>time.h        </td><td>Defines date and time handling functions</td></tr>
-                                <tr><td>uchar.h       </td><td>Types and functions for manipulating Unicode characters.</td></tr>
-                                <tr><td>wchar.h       </td><td>Defines wide string handling functions.</td></tr>
-                                <tr><td>wctype.h      </td><td>Defines set of functions used to classify wide characters by their types or to convert between upper and lower case</td></tr>
-
+                                <tr><td class="headercol">assert.h</td><td>Contains the assert macro</td></tr>
+                                <tr><td class="headercol">complex.h</td><td>Handle complex numbers</td></tr>
+                                <tr><td class="headercol">ctype.h</td><td>Check character class</td></tr>
+                                <tr><td class="headercol">errno.h</td><td>Standard error codes</td></tr>
+                                <tr><td class="headercol">fenv.h</td><td>Functions for configuring floating-point environment</td></tr>
+                                <tr><td class="headercol">float.h</td><td>Macro constants for floating-point</td></tr>
+                                <tr><td class="headercol">inttypes.h</td><td>Defines exact width integer types.</td></tr>
+                                <tr><td class="headercol">iso646.h</td><td>For programming in ISO 646 variant character sets.</td></tr>
+                                <tr><td class="headercol">limits.h</td><td>Defines macro constants of implementation-specific integer types.</td></tr>
+                                <tr><td class="headercol">locale.h</td><td>Defines localization functions.</td></tr>
+                                <tr><td class="headercol">math.h</td><td>Defines common mathematical functions.</td></tr>
+                                <tr><td class="headercol">setjmp.h</td><td>Declares the macros setjmp and longjmp, which are used for non-local exits.</td></tr>
+                                <tr><td class="headercol">signal.h</td><td>Defines signal handling functions.</td></tr>
+                                <tr><td class="headercol">stdalign.h</td><td>For querying and specifying the alignment of objects.</td></tr>
+                                <tr><td class="headercol">stdarg.h</td><td>For accessing a varying number of arguments passed to functions.</td></tr>
+                                <tr><td class="headercol">stdatomic.h</td><td>For atomic operations on data shared between threads.</td></tr>
+                                <tr><td class="headercol">stdbool.h</td><td>Defines a boolean data type.</td></tr>
+                                <tr><td class="headercol">stddef.h</td><td>Defines useful types and macros.</td></tr>
+                                <tr><td class="headercol">stdint.h</td><td>Defines exact width integer types.</td></tr>
+                                <tr><td class="headercol">stdio.h</td><td>Defines core input and output functions</td></tr>
+                                <tr><td class="headercol">stdlib.h</td><td>Defines numeric conversion functions, pseudo-random numbers generation functions, memory allocation, process control functions</td></tr>
+                                <tr><td class="headercol">stdnoreturn.h</td><td>For specifying non-returning functions.</td></tr>
+                                <tr><td class="headercol">string.h</td><td>Defines string handling functions.</td></tr>
+                                <tr><td class="headercol">tgmath.h</td><td>Defines type-generic mathematical functions.</td></tr>
+                                <tr><td class="headercol">threads.h</td><td>Defines functions for managing multiple Threads as well as mutexes and condition variables.</td></tr>
+                                <tr><td class="headercol">time.h</td><td>Defines date and time handling functions</td></tr>
+                                <tr><td class="headercol">uchar.h</td><td>Types and functions for manipulating Unicode characters.</td></tr>
+                                <tr><td class="headercol">wchar.h</td><td>Defines wide string handling functions.</td></tr>
+                                <tr><td class="headercol">wctype.h</td><td>Defines set of functions used to classify wide characters by their types or to convert between upper and lower case</td></tr>
                         </table>
                         </ul>
                 </section>
